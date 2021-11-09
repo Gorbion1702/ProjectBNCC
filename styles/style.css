@@ -1,8 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
 .main{
-    background-color: aqua;
+    background-color: #0C3D57;
     margin: 120px auto;
-    max-width: fit-content;
-    width: auto;
+    max-width: 400px;
+    width: 100%;
     border-radius: 10px;
-    padding: 20px; 
+    padding: 25px; 
+}
+
+.main header{
+    font-size: 30px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.main .inputField{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.inputField input{
+    width: 85%;
+    height: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+
+.inputField button{
+    width: 60px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color:lightslategray;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.main .todoList{
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.todoList li{
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    background-color: #1F4F69;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    padding: 0 15px;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.todoList li span{
+    position: absolute;
+    right: -45px;
+    color: #fff;
+    width: 45px;
+    text-align: center;
+    background: #e74c3c;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.todoList li:hover span{
+    right: 0px;
 }
