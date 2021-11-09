@@ -1,3 +1,8 @@
-h1{
-    color: red;
+.main{
+    background-color: aqua;
+    margin: 120px auto;
+    max-width: fit-content;
+    width: auto;
+    border-radius: 10px;
+    padding: 20px; 
 }
