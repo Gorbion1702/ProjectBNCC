@@ -25,8 +25,8 @@ body{
 }
 
 .main header{
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 800;
     color: whitesmoke;
 }
 
@@ -61,7 +61,7 @@ body{
 }
 
 .main .todoList{
-    max-height: 250px;
+    max-height: 300px;
     overflow-y: auto;
 }
 
