@@ -17,7 +17,7 @@ buttonadd.onclick = () => {
     let inputuser = input.value;
     let storagelocal = localStorage.getItem("Todo list");
     if(storagelocal == null){
-        todolist = [];
+        todolist = [''];
     }
     else{
         todolist = JSON.parse(storagelocal);
