@@ -121,55 +121,115 @@ html {
   color: pink;
 }
 
+
+/* about us page  */
+
 .about-us {
-  /* padding: 50px; */
-  margin: 50px 100px 50px 700px;
+    height: 400px;
+    width: 100%;
+    margin: 100px auto;
+    text-align: center;
 }
-
-.about-description {
-  margin: 0px 0px 0px 0px;
-}
-
-.card {
-  width: 50%;
-  background-color: rgb(255, 255, 255, 0.2);
-  padding: 20px 20px 20px 20px;
-  text-align: center;
-}
-
-.card-image:hover {
-  transform: scale(1.2);
-}
-
-.card-image {
-  transition: transform 0.2s;
-  height: 300px;
-  clip-path: circle();
-}
-
 .about-name {
-  font-size: 40px;
+    width: 60%;
+    font-size: 48px;
+    color: #fff;
+    padding: 20px 10px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.about-us h3 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.desc {
+    margin: 0 auto;
+    width: 30%;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+.quote {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    width: 100%;
+    font-style: italic;
+}
+.member-box {
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
+section {
+    width: 90%;
+    height: 450px;
+    float: left;
 }
 
-.description-info {
-  font-weight: bold;
-  font-family: "Lato";
-  margin: 15px 0px 0px 0px;
+.member {
+    height: 100%;
+    width: 300px;
+    background-color: #1f4f69;
+    float: center;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.member-pict {
+    height: 200px;
+    width: 200px;
+    background-color: #4f93ff;
+    border-radius: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(20px);
+}
+.member-pict img {
+    height: 193px;
+    width: 193px;
+    border-radius: 150px;
+    justify-content: center;
+}
+.member-info {
+    transform: translateY(70px);
+    color: white;
+}
+.member-info .quote{
+    font-size: 18px;
+    padding: 0 10px;
+}
+.member-name {
+    margin-bottom: 20px;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 2px;
 }
 
-.divsosmed {
-  margin: 15px;
+.footer {
+    width: 50%;
+    position: absolute;
+    bottom: 20px;
+    height: 30px;
+    background-color: #29607e;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-style: none;
 }
 
-.sosmed {
-  height: 40px;
-  margin: 15px;
-}
-
-.divsosmed a {
-  font-size: 0px;
-}
-
-.about-member{
-    margin-top: 20px;
-}
