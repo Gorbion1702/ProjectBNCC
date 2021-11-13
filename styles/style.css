@@ -214,7 +214,7 @@ section {
 
 .footer {
     width: 50%;
-    position: absolute;
+    position:relative;
     bottom: 20px;
     height: 30px;
     background-color: #29607e;
